@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartWatch Showcase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<script src="script/script.js"></script>
+<body onload="timer()">
+
+    <header>
+
+        <img src="images/logo.svg" alt="amazon" class="logo">
+
+    </header>
+
+    <section id="contents">
+
+        <div id="cont">
+            
+            <img id="myimage" src="https://i.imgur.com/iOeUBV7.png" alt="">
+            <p id="time"></p>
+            <img id="heart" src="images/heart.png" alt="">
+            <span id="heart-rate">76</span>
+
+        </div>
+        <div id="info">
+
+            <h1 class="title">Noise ColorFit Pro - The Smartest Watch</h1>
+
+            <p class="description">
+                The industry-leading TruView TM Display ensures that you get the bigger picture on the 1.55’’ touchscreen HD display with 320x360 pixels. Get a 1-year assured warranty from NOISE. Manage your warranty claims 24x7 by typing SUPPORT.GONOISE.COM in your browser's address bar. 59m 10s
+            </p>
+
+            <h3 class="section">Select Color</h3>
+
+            <ul class="colors">
+                <li class="black" onclick="black()"></li>
+                <li class="red" onclick="red()"></li>
+                <li class="blue" onclick="blue()"></li>
+                <li class="pink" onclick="pink()"></li>
+                <li class="purple" onclick="purple()"></li>
+            </ul>
+
+            <h3 class="section">Features</h3>
+
+            <ul class="options">
+                <li><a onclick="timer()">Time</a></li>
+                <li><a onclick="heartbeat()">Heart Rate</a></li>
+            </ul>
+
+            <button class="buy">BUY NOW</button>
+            
+        </div>
+    
+    </section>
+</body>
+</html>
